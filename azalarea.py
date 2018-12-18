@@ -1,4 +1,5 @@
-import requests
+import os
+import logging
 from time import sleep
 
 url = "https://api.telegram.org/bot<token>/"
