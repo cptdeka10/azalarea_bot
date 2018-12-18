@@ -34,8 +34,3 @@ def main():
 
 if __name__ == '__main__':  
     main()
-    
-def get_updates_json(request):  
-    params = {'timeout': 100, 'offset': None}
-    response = requests.get(request + 'getUpdates', data=params)
-    return response.json()
